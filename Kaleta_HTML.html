@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dokumentace projektu</title>
+        <meta charset="windows-1250">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>Dokumentace k projektu</h1>
+        </header>
+    <main>
+        <article>
+            <header>         
+                    <h2>Knihovna</h2>
+                    <h2>Projekt na značkovací jazyky</h2>             
+            </header>
+            <nav>
+            <h3>Obsah</h3>
+                <ol>
+                    <li>
+                        <a href="#uvod"> Úvod </a>
+                    </li>
+                    <li>
+                        <a href="#metodologie"> Metodologie </a>
+                    </li>
+                    <li>
+                        <a href="#element"> Popis elementů</a>
+                    </li>
+                    <li>
+                        <a href="#atribut"> Popis atributů </a>
+                    </li>
+                    <li>
+                        <a href="#dattyp"> Popis datových typů </a>
+                    </li>
+                    <li>
+                        <a href="#trans"> Popis transformace </a>
+                    </li>
+                    <li>
+                        <a href="#zaver"> Závěr </a>
+                    </li>
+                </ol>
+            </nav>
+            <section id="uvod">
+                <h3>Úvod</h3>
+                <p>Tato dokumentace popisuje práci na projektu k předmětu "Značkovací jazyky". Obsahuje popis elementů, atributů a datových typů a základně ukazuje proces transformace.</p>
+            </section>
+            <section id="metodologie">
+                <h3>Metodologie</h3>
+                <p>K tvorbě projektu byly využity programy XMLCopyEditor a PSPad a informace ze stránek W3Schools.</p>
+            </section>
+            <section id="element">
+                <h3>Popis elementů</h3>
+                <p>Tabulka obsahuje název elementu, jejich popis, použitý datový typ a případně jaké atributy a omezení se k nim vážou.</p>
+                <table border = "1">
+                <tr>
+                  <th>Název</th>
+                  <th>Popis</th>
+                  <th>Datový typ</th>
+                  <th>Atributy</th>
+                  <th>Omezení</th>
+                </tr>
+                <tr>
+                  <td>kniha</td>
+                  <td>Základní element</td>
+                  <td></td>
+                  <td><a href="#id_kniha">id_kniha</a> <a href="#vazba">vazba</a></td>
+                  <td></td>    
+                </tr>
+                <tr>
+                  <td>isbn</td>
+                  <td>Mezinárodí ID knihy</td>
+                  <td>string</td>
+                  <td></td>
+                  <td></td>                   
+                </tr>
+                <tr>
+                  <td>nazev</td>
+                  <td>Struktura názvu knihy</td>
+                  <td>vlastní (<a href="#nazevT">název</a>)</td>
+                  <td></td>
+                  <td></td>    
+                </tr>
+                <tr>
+                  <td>nazev_cz</td>
+                  <td>Název knihy v češtině</td>
+                  <td>string</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>nazev_orig</td>
+                  <td>Název knihy v originále</td>
+                  <td>vlastní (<a href="#nazev_origT">nazev_orig</a>)</td>
+                  <td><a href="#jazyk">jazyk</a> <a href="#nazev">nazev</a></td>
+                  <td></td>
+                </tr>
+                <tr> 
+                  <td>autor</td>
+                  <td>Struktura autora</td>
+                  <td>vlastní (<a href="#autorT">autor</a>)</td>
+                  <td><a href="#id_autor">id_autor</a></td>
+                  <td>Neomezený počet</td>
+                </tr>
+                <tr> 
+                  <td>krestni</td>
+                  <td>Křestní jméno autora</td>
+                  <td>string</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>prijmeni</td>
+                  <td>Příijmení autora</td>
+                  <td>string</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr> 
+                  <td>serie</td>
+                  <td>Struktura serie</td>
+                  <td>vlastní (<a href="#serieT">serie</a>)</td>
+                  <td><a href="#id_serie">id_serie</a></td>
+                  <td>Nepovinné</td>
+                </tr>
+                <tr>
+                  <td>nazev_serie</td>
+                  <td>Název serie</td>
+                  <td>string</td>      
+                  <td></td>
+                  <td></td>            
+                </tr>
+                <tr>
+                  <td>pocet_knih</td>
+                  <td>Počet knih v serii</td>
+                  <td>integer</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>poradi_knihy</td>
+                  <td>Pořadové číslo knihy v serii</td>
+                  <td>integer</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>vydani</td>
+                  <td>Stuktura vydání</td>
+                  <td>vlastní (<a href="#vydaniT">vydani</a>)</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>vydano</td>
+                  <td>Rok vydání</td>
+                  <td>string</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>vydano_ogiginal</td>
+                  <td>Rok vydání prvního výtisku</td>
+                  <td>string</td>
+                  <td></td>
+                  <td>Nepovinné</td>
+                </tr>
+                <tr>
+                  <td>vydani_cislo</td>
+                  <td>Číslo vydání</td>
+                  <td>integer</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>zanr</td>
+                  <td>Žánr knihy</td>
+                  <td>string</td>
+                  <td></td>
+                  <td>Neomezený počet</td>
+                </tr>
+                <tr>
+                  <td>vydavatel</td>
+                  <td>Struktura vydavatele</td>
+                  <td>vlastní (<a href="#vydavatelT">vydavatel</a>)</td>
+                  <td><a href="#id_vydavatel">id_vydavatel</a></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>nazev_vydavatel</td>
+                  <td>Název vydavatelství</td>
+                  <td>string</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>adresa</td>
+                  <td>Struktura adresy</td>
+                  <td>vlastní (<a href="#adresaT">adresa</a>)</td>
+                  <td></td>
+                  <td>Nepovinné</td>
+                </tr>
+                <tr>
+                  <td>ulice</td>
+                  <td>Ulice</td>
+                  <td>string</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>cp</td>
+                  <td>Číslo popisné</td>
+                  <td>string</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>mesto</td>
+                  <td>Město</td>
+                  <td>string</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>stranky</td>
+                  <td>Webové stránky vydavatelství</td>
+                  <td>string</td>
+                  <td></td>
+                  <td>Nepovinné</td>
+                </tr>
+                <tr>
+                  <td>vydavatel_puvodni</td>
+                  <td>Vydavatel oroginální verze</td>
+                  <td>vlastní (<a href="#vydavatelT">vydavatel</a>)</td>
+                  <td><a href="#id_vydavatel">id_vydavatel</a></td>
+                  <td>Nepovinné</td>
+                </tr>
+                <tr>
+                  <td>preklad</td>
+                  <td>Autor překladu</td>
+                  <td>vlastní (<a href="#jmenoT">jmeno</a>)</td>
+                  <td></td>
+                  <td>Nepovinné</td>
+                </tr>
+                <tr>
+                  <td>obalka</td>
+                  <td>Autor obálky</td>
+                  <td>vlastní (<a href="#jmenoT">jmeno</a>)</td>   
+                  <td></td>
+                  <td>Nepovinné</td>
+                </tr>               
+                <tr>
+                  <td>pocet_stran</td>
+                  <td>Počet stran knihy</td>
+                  <td>integer</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>hodnoceni</td>
+                  <td>Hodnocení knihy</td>
+                  <td>vlastní (<a href="#hodnoceniT">hodnoceni</a>)</td>
+                  <td><a href="#pocet_hodnoceni">pocet_hodnoceni</a> <a href="#hodnoceni">hodnoceni</a></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>popis</td>
+                  <td>Stručný popis knihy</td>
+                  <td>string</td>             
+                  <td></td>
+                  <td>Nepovinné</td>
+                </tr>
+                <tr>
+                  <td>popis_dlouhy</td>
+                  <td>Rozsáhlejší popis knihy</td>
+                  <td>string</td>
+                  <td></td>
+                  <td>Nepovinné</td>
+                </tr>
+                <tr>
+                  <td>prodejni_cena</td>
+                  <td>Prodejní cena knihy</td>
+                  <td>vlastní (<a href="#cenaT">cena</a>)</td>
+                  <td><a href="#mena">mena</a> <a href="#cena">cena</a></td>
+                  <td>Nepovinné</td>
+                </tr>
+                <tr>
+                  <td>pocet</td>
+                  <td>Počet knih na skladě</td>
+                  <td>integer</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                </table>
+            </section>
+            
+            <section id="atribut">
+                <h3>Popis Atributů</h3>
+                
+                 <p>Tabulka obsahuje název atributů, jejich popis, použitý datový typ a případně jaká omezení se k nim vážou.</p>
+                <table border = "1">
+                <tr>
+                  <th>Název</th>
+                  <th>Popis</th>
+                  <th>Typ</th>
+                  <th>Omezení</th>
+                </tr>
+                <tr>
+                  <td><a name="id_kniha">id_kniha</a></td>
+                  <td>Identifikační číslo knihy v systému</td>
+                  <td>id</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>id</td>
+                  <td>ID</td>
+                  <td>string</td>
+                  <td>[A-Z][0-9][0-9][0-9]</td>
+                </tr>
+                <tr>
+                  <td id="vazba" >vazba</td>
+                  <td>Druh vazby knihy</td>
+                  <td>string</td>
+                  <td>Měkká/pevná</td>
+                </tr>
+                <tr>
+                  <td id="jazyk">jazyk</td>
+                  <td>Jazyk názvu knihy</td>
+                  <td>string</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="nazev">nazev</td>
+                  <td>Název knihy</td>
+                  <td>string</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="id_autor">id_autor</td>
+                  <td>Identifikační číslo autora</td>
+                  <td>id</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="id_serie">id_serie</td>
+                  <td>Identifikační číslo serie</td>
+                  <td>id</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="id_vydavatel">id_vydavatel</td>
+                  <td>Identifikační číslo vydavatelství</td>
+                  <td>id</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="pocet_hodnoceni">pocet_hodnoceni</td>
+                  <td>Počet hodnocení</td>
+                  <td>integer</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="hodnoceni">hodnoceni</td>
+                  <td>Průměrné hodnocení</td>
+                  <td>integer</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="mena">mena</td>
+                  <td>Měna ceny</td>
+                  <td>string</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="cena">cena</td>
+                  <td>Cena knihy</td>
+                  <td>integer</td>
+                  <td></td>
+                </tr>               
+                </table>
+            </section>
+            <section id="dattyp">
+                <h3>Popis datových typů</h3>
+                <p>Tabulka obsahuje název datových typů a elementy které obsahují.</p>
+                <table border = "1">
+                <tr>
+                  <th>Název</th>
+                  <th>Elementy</th>
+                  <th>Atributy</th>
+                </tr>
+                <tr>
+                  <td id="nazevT">nazev</td>
+                  <td>nazev nazev_orig</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="nazev_origT">nazev_orig</td>
+                  <td></td>
+                  <td><a href="#jazyk">jazyk</a> <a href="#nazev">nazev</a></td>
+                </tr>
+                <tr>
+                  <td id="autorT">autor</td>
+                  <td>krestni prijmeni</td>
+                  <td><a href="#id_autor">id_autor</a></td>
+                </tr>
+                <tr>
+                  <td id="serieT">serie</td>
+                  <td>nazev_serie pocet_knih poradi_knihy</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="vydaniT">vydani</td>
+                  <td>vydano vydano_original vydani_cislo</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="vydavatelT">vydavatel</td>
+                  <td>nazev_vydavatel adres stranky</td>
+                  <td><a href="#id_vydavatel">id_vydavatel</a></td>
+                </tr>
+                <tr>
+                  <td id="adresaT">adresa</td>
+                  <td>ulice cp mesto</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="jmenoT">jmeno</td>
+                  <td>krestni prijmeni</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td id="hodnoceniT">hodnoceni</td>
+                  <td></td>
+                  <td><a href="#pocet_hodnoceni">pocet_hodnoceni</a> <a href="#hodnoceni">hodnoceni</a></td>
+                </tr>
+                <tr>
+                  <td id="cenaT">cena</td>
+                  <td></td>
+                  <td><a href="#mena">mena</a> <a href="#cena">cena</a></td>
+                </tr>
+                </table>
+            </section>
+            <section id="trans">
+                <h3>Popis transformace</h3>
+                <p>Transformace vypisuje tabulku s názvem knihy, jejím autorem, rokem vydání, žánru, vydavateli a s hodnocení vyjádřené graficky počtem hvězd.
+                Dále červeně podbarvuje knihy, které momentálně nejsou na skladě.</p>
+            </section>
+            <section id="zaver">
+                <h3>Závěr</h3>
+                <p></p>
+            </section>
+            <footer>
+              Autor: Aleš Kaleta
+            </footer>
+        </article>
+    </main>
+</body>
+</html>

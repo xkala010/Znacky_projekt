@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="https://github.com/xkala010/Znacky_projekt/blob/master/Kaleta_XSL.xml"?>
+<knihovna xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://github.com/xkala010/Znacky_projekt/blob/master/Kaleta_XSD.xml">
+  <kniha id_kniha="K001" vazba="Měkká">
+    <isbn>80-7332-091-6</isbn>
+    <nazev>
+      <nazev_cz>Křížová palba</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="Crossfire"></nazev_orig>
+    </nazev>
+    <autor id_autor="A001">
+      <krestni>Mathew</krestni>
+      <prijmeni>Farrer</prijmeni>
+    </autor>
+    <serie id_serie="S001">
+     <nazev_serie>Shira Calpurnia</nazev_serie>
+     <pocet_knih>3</pocet_knih>
+     <poradi_knihy>1</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2006</vydano>
+      <vydani_original>2003</vydani_original>
+      <vydani_cislo>1</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Tomáš </krestni>
+      <prijmeni>Nevrkla</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Clint</krestni>
+      <prijmeni>Langley</prijmeni>
+     </obalka>
+    <pocet_stran>294</pocet_stran>
+    <hodnoceni pocet_hodnoceni="2" hodnoceni="5"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="219"></prodejni_cena>
+    <pocet>2</pocet>
+  </kniha>
+
+  <kniha id_kniha="K002" vazba="Měkká">
+    <isbn>978-80-7332-127</isbn>
+    <nazev>
+      <nazev_cz>Slepota</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="Blid"></nazev_orig>
+    </nazev>
+    <autor id_autor="A001">
+      <krestni>Mathew</krestni>
+      <prijmeni>Farrer</prijmeni>
+    </autor>
+    <serie id_serie="S001">
+     <nazev_serie>Shira Calpurnia</nazev_serie>
+     <pocet_knih>3</pocet_knih>
+     <poradi_knihy>3</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2008</vydano>
+      <vydani_original>2006</vydani_original>
+      <vydani_cislo>1</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Josef</krestni>
+      <prijmeni>Horejší</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Clint</krestni>
+      <prijmeni>Langley</prijmeni>
+     </obalka>
+    <pocet_stran>240</pocet_stran>
+    <hodnoceni pocet_hodnoceni="1" hodnoceni="2"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="209"></prodejni_cena>
+    <pocet>0</pocet>
+  </kniha>
+
+  <kniha id_kniha="K003" vazba="Měkká">
+    <isbn>987-80-7332-110-9</isbn>
+    <nazev>
+      <nazev_cz>Odkaz</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="Legacy"></nazev_orig>
+    </nazev>
+    <autor id_autor="A001">
+      <krestni>Mathew</krestni>
+      <prijmeni>Farrer</prijmeni>
+    </autor>
+    <serie id_serie="S001">
+     <nazev_serie>Shira Calpurnia</nazev_serie>
+     <pocet_knih>3</pocet_knih>
+     <poradi_knihy>2</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2007</vydano>
+      <vydani_original>2005</vydani_original>
+      <vydani_cislo>1</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Štěpán</krestni>
+      <prijmeni>Hlavsa</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Clint</krestni>
+      <prijmeni>Langley</prijmeni>
+     </obalka>
+    <pocet_stran>254</pocet_stran>
+    <hodnoceni pocet_hodnoceni="3" hodnoceni="1"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="209"></prodejni_cena>
+    <pocet>1</pocet>
+  </kniha>  
+
+  <kniha id_kniha="K004" vazba="Měkká">
+    <isbn>978-80-7332-127</isbn>
+    <nazev>
+      <nazev_cz>Třináctá legie</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="13th Legion"></nazev_orig>
+    </nazev>
+    <autor id_autor="A002">
+      <krestni>Gav</krestni>
+      <prijmeni>Thorpe</prijmeni>
+    </autor>
+    <serie id_serie="S002">
+     <nazev_serie>Třináctá legie</nazev_serie>
+     <pocet_knih>3</pocet_knih>
+     <poradi_knihy>1</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2004</vydano>
+      <vydani_original>2002</vydani_original>
+      <vydani_cislo>1</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Martin</krestni>
+      <prijmeni>Novák</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Kenson</krestni>
+      <prijmeni>Low</prijmeni>
+     </obalka>
+    <pocet_stran>304</pocet_stran>
+    <hodnoceni pocet_hodnoceni="4" hodnoceni="4"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="209"></prodejni_cena>
+    <pocet>1</pocet>
+  </kniha>
+  
+    <kniha id_kniha="K005" vazba="Měkká">
+    <isbn>978-80-7332-127</isbn>
+    <nazev>
+      <nazev_cz>Komando smrti</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="Kill team"></nazev_orig>
+    </nazev>
+    <autor id_autor="A002">
+      <krestni>Gav</krestni>
+      <prijmeni>Thorpe</prijmeni>
+    </autor>
+    <serie id_serie="S002">
+     <nazev_serie>Třináctá legie</nazev_serie>
+     <pocet_knih>3</pocet_knih>
+     <poradi_knihy>2</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2006</vydano>
+      <vydani_original>2004</vydani_original>
+      <vydani_cislo>1</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Martin</krestni>
+      <prijmeni>Novák</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Kenson</krestni>
+      <prijmeni>Low</prijmeni>
+     </obalka>
+    <pocet_stran>316</pocet_stran>
+    <hodnoceni pocet_hodnoceni="1" hodnoceni="4"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="209"></prodejni_cena>
+    <pocet>1</pocet>
+  </kniha>
+
+    <kniha id_kniha="K006" vazba="Měkká">
+    <isbn>978-80-7332-127</isbn>
+    <nazev>
+      <nazev_cz>Destrukční četa</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="Annihilation squad"></nazev_orig>
+    </nazev>
+    <autor id_autor="A002">
+      <krestni>Gav</krestni>
+      <prijmeni>Thorpe</prijmeni>
+    </autor>
+    <serie id_serie="S002">
+     <nazev_serie>Třináctá legie</nazev_serie>
+     <pocet_knih>3</pocet_knih>
+     <poradi_knihy>3</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2007</vydano>
+      <vydani_original>2005</vydani_original>
+      <vydani_cislo>1</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Štěpán</krestni>
+      <prijmeni>Hlavsa</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Kenson</krestni>
+      <prijmeni>Low</prijmeni>
+     </obalka>
+    <pocet_stran>302</pocet_stran>
+    <hodnoceni pocet_hodnoceni="3" hodnoceni="4"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="219"></prodejni_cena>
+    <pocet>1</pocet>
+  </kniha>
+
+    <kniha id_kniha="K007" vazba="Měkká">
+    <isbn>978-80-7332-127</isbn>
+    <nazev>
+      <nazev_cz>Hvězdný vlk</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="Space wolf"></nazev_orig>
+    </nazev>
+    <autor id_autor="A003">
+      <krestni>William</krestni>
+      <prijmeni>King</prijmeni>
+    </autor>
+    <serie id_serie="S003">
+     <nazev_serie>Ragna</nazev_serie>
+     <pocet_knih>6</pocet_knih>
+     <poradi_knihy>1</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2002</vydano>
+      <vydani_original>2001</vydani_original>
+      <vydani_cislo>1</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Pavel</krestni>
+      <prijmeni>Velan</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Kenson</krestni>
+      <prijmeni>Low</prijmeni>
+     </obalka>
+    <pocet_stran>278</pocet_stran>
+    <hodnoceni pocet_hodnoceni="1" hodnoceni="5"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="239"></prodejni_cena>
+    <pocet>1</pocet>
+  </kniha>
+
+    <kniha id_kniha="K008" vazba="Měkká">
+    <isbn>978-80-7332-127</isbn>
+    <nazev>
+      <nazev_cz>Ragnarův spár</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="Ragnar's claw"></nazev_orig>
+    </nazev>
+    <autor id_autor="A003">
+      <krestni>William</krestni>
+      <prijmeni>King</prijmeni>
+    </autor>
+    <serie id_serie="S003">
+     <nazev_serie>Ragna</nazev_serie>
+     <pocet_knih>6</pocet_knih>
+     <poradi_knihy>2</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2002</vydano>
+      <vydani_original>2001</vydani_original>
+      <vydani_cislo>1</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Pavel</krestni>
+      <prijmeni>Velan</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Kenson</krestni>
+      <prijmeni>Low</prijmeni>
+     </obalka>
+    <pocet_stran>286</pocet_stran>
+    <hodnoceni pocet_hodnoceni="2" hodnoceni="5"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="239"></prodejni_cena>
+    <pocet>0</pocet>
+  </kniha>
+  
+      <kniha id_kniha="K009" vazba="Měkká">
+    <isbn>978-80-7332-127</isbn>
+    <nazev>
+      <nazev_cz>Galaxie v plamenech</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="Galaxy in flames"></nazev_orig>
+    </nazev>
+    <autor id_autor="A004">
+      <krestni>Ben</krestni>
+      <prijmeni>Counter</prijmeni>
+    </autor>
+    <serie id_serie="S004">
+     <nazev_serie>Horovo kacířství</nazev_serie>
+     <pocet_knih>3</pocet_knih>
+     <poradi_knihy>1</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2013</vydano>
+      <vydani_original>2010</vydani_original>
+      <vydani_cislo>3</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Marian</krestni>
+      <prijmeni>Hronek</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Neil</krestni>
+      <prijmeni>Roberts</prijmeni>
+     </obalka>
+    <pocet_stran>310</pocet_stran>
+    <hodnoceni pocet_hodnoceni="4" hodnoceni="5"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="239"></prodejni_cena>
+    <pocet>1</pocet>
+  </kniha>
+  
+      <kniha id_kniha="K010" vazba="Měkká">
+    <isbn>978-80-7332-127</isbn>
+    <nazev>
+      <nazev_cz>Falešní bohovéh</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="False gods"></nazev_orig>
+    </nazev>
+    <autor id_autor="A004">
+      <krestni>Graham</krestni>
+      <prijmeni>McNeil</prijmeni>
+    </autor>
+    <serie id_serie="S004">
+     <nazev_serie>Horovo kacířství</nazev_serie>
+     <pocet_knih>3</pocet_knih>
+     <poradi_knihy>2</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2013</vydano>
+      <vydani_original>2010</vydani_original>
+      <vydani_cislo>1</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Marian</krestni>
+      <prijmeni>Hronek</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Neil</krestni>
+      <prijmeni>Roberts</prijmeni>
+     </obalka>
+    <pocet_stran>358</pocet_stran>
+    <hodnoceni pocet_hodnoceni="4" hodnoceni="5"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="239"></prodejni_cena>
+    <pocet>0</pocet>
+  </kniha>
+
+      <kniha id_kniha="K011" vazba="Měkká">
+    <isbn>978-80-7332-127</isbn>
+    <nazev>
+      <nazev_cz>Horův vzestup</nazev_cz>
+      <nazev_orig jazyk="ENG" nazev="Horus rising"></nazev_orig>
+    </nazev>
+    <autor id_autor="A005">
+      <krestni>Dan</krestni>
+      <prijmeni>Abbnet</prijmeni>
+    </autor>
+    <serie id_serie="S004">
+     <nazev_serie>Horovo kacířství</nazev_serie>
+     <pocet_knih>3</pocet_knih>
+     <poradi_knihy>1</poradi_knihy>
+    </serie>
+    <vydani>
+      <vydano>2011</vydano>
+      <vydani_original>2009</vydani_original>
+      <vydani_cislo>1</vydani_cislo>
+    </vydani>
+    <zanr>Sci-fi</zanr>
+    <vydavatel id_vydavatel="V001">
+      <nazev_vydavatel>POLARIS</nazev_vydavatel>
+      <adresa>
+        <ulice>Podkopčí</ulice>
+        <cp>464</cp>
+        <mesto>Frenštát p. R.</mesto>
+      </adresa>
+      <stranky>http://www.polarissf.cz</stranky>
+    </vydavatel>
+    <vydavatel_puvodni id_vydavatel="V002">
+      <nazev_vydavatel>Black library</nazev_vydavatel>
+    </vydavatel_puvodni>
+    <preklad>
+      <krestni>Vojtěch</krestni>
+      <prijmeni>Dušek</prijmeni>
+    </preklad>
+    <obalka>
+      <krestni>Neil</krestni>
+      <prijmeni>Roberts</prijmeni>
+     </obalka>
+    <pocet_stran>350</pocet_stran>
+    <hodnoceni pocet_hodnoceni="1" hodnoceni="5"></hodnoceni>
+    <popis>První kniha v sérii Shira Calpurnia. Napsal Mathew Farrer</popis>
+    <popis_dlouhy>Rušné doky soustavy Hydraphur jsou domovským přístavem mocných imperiálních válečných flotil, které tady se tady v nekonečných cyklech války opravují a přezbrojují. Ale ani tato bašta císařské moci není tak docela bezpečná před temnotou. Když začne nově jmenovaná důstojnice Adeptus Arbites Shira Calpurnia vyšetřovat sérii pokusů o vraždu, ocitne se nečekaně přímo uprostřed spletité sítě intrik. Přestože naráží na každém kroku na korupci a zradu mezi hydraphurskou elitou, nezbývá jí než přežít křížovou palbu a vydat svoje tajemné nepřátele spravedlnosti.</popis_dlouhy>
+    <prodejni_cena mena="CZK" cena="279"></prodejni_cena>
+    <pocet>4</pocet>
+  </kniha>
+  
+  
+  
+  
+</knihovna>
